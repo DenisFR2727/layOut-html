@@ -1,0 +1,115 @@
+.header {
+    .header__top {
+        .header__top-black {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            font-family: 'Open Sans';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+
+            .header__top-text {
+                padding: 11px 12px;
+
+                .header__top-black-link {
+                    text-decoration: none;
+                    color: #fff;
+                    text-align: center;
+                    font-family: 'Open Sans';
+                    font-size: 12px;
+                    user-select: none;
+                }
+            }
+        }
+        .header__top-panel {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.04);
+
+            .header__top-logo {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                margin: 18px 18px;
+            }
+            .header__top-actions {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .header__top-icons {
+                    display: flex;
+                    align-items: center;
+                    gap: 22px;
+                    padding-right: 53px;
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+            .header__top-empty {
+                flex: 1;
+            }
+        }
+    }
+    .header__main {
+        position: relative;
+        height: 584px;
+        background-image: url('../images/header/header-bg.png');
+        background-position: center;
+        background-size: cover;
+
+        .header__main-nav {
+            display: flex;
+            justify-content: space-between;
+            color: #000;
+            text-align: center;
+            font-family: 'Open Sans';
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 16px 96px 0px 128px;
+
+            .header__main-links {
+                display: flex;
+                gap: 32px;
+
+                li {
+                    list-style: none;
+                    a {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .header__main-stores {
+                display: flex;
+                gap: 23px;
+
+                a {
+                    color: #000;
+                    text-decoration: none;
+                }
+            }
+        }
+        .header__main-text {
+            width: 142px;
+            text-align: start;
+            position: absolute;
+            top: 255px;
+            left: 980px;
+            color: #000;
+            font-family: 'Open Sans';
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2.25px;
+            text-transform: uppercase;
+        }
+    }
+}
