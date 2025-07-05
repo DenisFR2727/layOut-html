@@ -87,11 +87,12 @@
   text-decoration: none;
 }
 .header .header__main .header__main-text {
-  width: 142px;
-  text-align: start;
+  display: flex;
   position: absolute;
-  top: 255px;
-  left: 980px;
+  top: 47.5%;
+  left: 81.67%;
+  max-width: 142px;
+  text-align: start;
   color: #000;
   font-family: "Open Sans";
   font-size: 15px;
