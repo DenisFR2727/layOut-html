@@ -126,9 +126,14 @@
 }
 
 .fotos {
+  width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 12px;
+}
+.fotos .fotos_item img {
+  object-fit: cover;
 }
 .fotos .fotos_item p {
   text-align: center;

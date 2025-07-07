@@ -1,9 +1,14 @@
 .fotos {
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 12px;
 
     .fotos_item {
+        img {
+            object-fit: cover;
+        }
         p {
             text-align: center;
             padding-top: 24px;
