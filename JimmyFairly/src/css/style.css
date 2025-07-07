@@ -139,6 +139,15 @@
   text-align: center;
   padding-top: 24px;
 }
+.fotos .fotos_bottom {
+  display: flex;
+  width: 1200px;
+  height: 460px;
+}
+.fotos .fotos_bottom img {
+  width: 100%;
+  object-fit: cover;
+}
 
 * {
   box-sizing: border-box;

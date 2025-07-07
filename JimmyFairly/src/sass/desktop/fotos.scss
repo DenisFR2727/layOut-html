@@ -14,4 +14,14 @@
             padding-top: 24px;
         }
     }
+    .fotos_bottom {
+        display: flex;
+        width: 1200px;
+        height: 460px;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
 }
