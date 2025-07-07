@@ -1,0 +1,12 @@
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    .fotos_item {
+        p {
+            text-align: center;
+            padding-top: 24px;
+        }
+    }
+}
