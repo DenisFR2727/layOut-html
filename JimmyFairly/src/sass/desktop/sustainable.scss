@@ -1,0 +1,23 @@
+.sustainable {
+    position: relative;
+
+    .sustainable_icon {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 95px;
+        left: 18px;
+
+        .icon {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+        }
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 156px;
+        padding-bottom: 168px;
+    }
+}

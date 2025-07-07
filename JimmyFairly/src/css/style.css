@@ -103,6 +103,28 @@
   text-transform: uppercase;
 }
 
+.sustainable {
+  position: relative;
+}
+.sustainable .sustainable_icon {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 95px;
+  left: 18px;
+}
+.sustainable .sustainable_icon .icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.sustainable h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 156px;
+  padding-bottom: 168px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -114,8 +136,10 @@ body {
 }
 
 .container {
+  position: relative;
   margin: 0 auto;
   max-width: 1200px;
+  background: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
