@@ -11,6 +11,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@splidejs/splide": "^4.1.4",
         "sass": "^1.77.8"
     }
 }

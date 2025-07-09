@@ -58,11 +58,17 @@
     .header__main {
         position: relative;
         height: 584px;
-        background-image: url('../images/header/header-bg.png');
-        background-position: center;
-        background-size: cover;
+        // background-image: url('../images/header/header-bg.png');
 
+        .splide__slide {
+            img {
+                height: 584px;
+                object-fit: cover;
+            }
+        }
         .header__main-nav {
+            position: relative;
+            top: 30px;
             display: flex;
             justify-content: space-between;
             color: #000;
@@ -73,6 +79,7 @@
             font-weight: 400;
             line-height: normal;
             padding: 16px 96px 0px 128px;
+            z-index: 1;
 
             .header__main-links {
                 display: flex;
@@ -99,7 +106,7 @@
         .header__main-text {
             display: flex;
             position: absolute;
-            top: 47.5%;
+            top: 285px;
             left: 81.67%;
             max-width: 142px;
             text-align: start;

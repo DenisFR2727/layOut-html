@@ -51,11 +51,14 @@
 .header .header__main {
   position: relative;
   height: 584px;
-  background-image: url("../images/header/header-bg.png");
-  background-position: center;
-  background-size: cover;
+}
+.header .header__main .splide__slide img {
+  height: 584px;
+  object-fit: cover;
 }
 .header .header__main .header__main-nav {
+  position: relative;
+  top: 30px;
   display: flex;
   justify-content: space-between;
   color: #000;
@@ -66,6 +69,7 @@
   font-weight: 400;
   line-height: normal;
   padding: 16px 96px 0px 128px;
+  z-index: 1;
 }
 .header .header__main .header__main-nav .header__main-links {
   display: flex;
@@ -89,7 +93,7 @@
 .header .header__main .header__main-text {
   display: flex;
   position: absolute;
-  top: 47.5%;
+  top: 285px;
   left: 81.67%;
   max-width: 142px;
   text-align: start;
@@ -143,6 +147,7 @@
   display: flex;
   width: 1200px;
   height: 460px;
+  margin-top: 89px;
 }
 .fotos .fotos_bottom img {
   width: 100%;
