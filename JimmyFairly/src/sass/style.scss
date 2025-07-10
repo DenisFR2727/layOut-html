@@ -1,3 +1,6 @@
+// Fonts
+@use './fonts.scss';
+
 // Desktop
 @forward './desktop/header.scss';
 @forward './desktop/sustainable.scss';

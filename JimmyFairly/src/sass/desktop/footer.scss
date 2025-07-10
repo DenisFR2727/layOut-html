@@ -7,10 +7,11 @@
         align-items: center;
         padding-left: 158px;
         padding-right: 233px;
+        text-align: start;
 
         h2 {
             width: 100%;
-            text-align: center;
+            text-align: start;
             max-width: 260px;
             color: #000;
             font-family: 'Open Sans';
@@ -28,6 +29,110 @@
                 background: #fff;
                 padding: 21px 21px 21px 241px;
             }
+        }
+    }
+    .footer_contacts {
+        width: 100%;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 158px;
+            padding-right: 215px;
+
+            li {
+                list-style: none;
+
+                h2 {
+                    color: #000;
+                    font-family: 'Open Sans';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-top: 12px;
+                    padding-bottom: 27px;
+                }
+                p {
+                    color: #939292;
+                    font-family: 'Open Sans';
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                .footer_contact-us {
+                    text-align: start;
+                    border-right: 1px solid #e5e5e5;
+                    padding-right: 121px;
+
+                    h2 {
+                        padding-bottom: 27px;
+                    }
+                    p {
+                        line-height: 24px;
+                    }
+                    .footer_contact-us-icons {
+                        display: flex;
+                        gap: 32px;
+
+                        .footer_contact-email {
+                            display: flex;
+                            flex-direction: column;
+                            padding-top: 32px;
+
+                            a {
+                                display: flex;
+                                justify-content: center;
+                                img {
+                                    display: flex;
+                                }
+                            }
+                            p {
+                                padding-top: 14px;
+                            }
+                        }
+                        .footer_contact-help {
+                            padding-top: 32px;
+
+                            a {
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            p {
+                                padding-top: 7px;
+                            }
+                        }
+                    }
+                }
+                .footer_about {
+                    padding-right: 115px;
+                    padding-left: 40px;
+                }
+                .footer_customer {
+                    padding-right: 84px;
+                }
+            }
+        }
+    }
+    .footer_bottom-panel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 95px 160px 32px 158px;
+
+        p {
+            color: #939292;
+            font-family: 'Open Sans';
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        .footer_boottom-leng {
+            padding: 5px 34px 7px 7px;
+            background: #fff;
+            text-transform: uppercase;
         }
     }
 }
